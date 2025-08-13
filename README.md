@@ -47,12 +47,12 @@ GET/POST http://localhost:5005/stop
   - ##T: Type the command text as text, escaping any characters that need to, with a new line at the end.
   - ##C: Type the command text as keyboard command 
     - Keyboard commands:
-      - n -> {ENTER}
-      - h -> {HOME}
-      - e -> {END}
-      - d -> {DOWN}
-      - u -> {UP}
-      - t -> {TAB}
+      - `n` -> ENTER
+      - `h` -> HOME
+      - `e` -> END
+      - `d` -> DOWN
+      - `u` -> UP
+      - `t` -> TAB
   - ##W: Pause for the duration specified in command text as milliseconds
   - ##R: Send the command text as it is (`SendKeys.SendWait` is used) 
   - ##N: Send a new line (no text expected)
