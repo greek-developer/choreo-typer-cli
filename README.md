@@ -43,9 +43,9 @@ GET/POST http://localhost:5005/stop
 - A line in the text file can contain multiple commands
 
 ### Command indentifiers
-  - ##T: Type the command text as text, escaping any characters that need to.
-  - ##T: Type the command text as text, escaping any characters that need to, with a new line at the end.
-  - ##C: Type the command text as keyboard command 
+  - `##T:` Type the command text as text, escaping any characters that need to.
+  - `##T:` Type the command text as text, escaping any characters that need to, with a new line at the end.
+  - `##C:` Type the command text as keyboard command 
     - Keyboard commands:
       - `n` -> ENTER
       - `h` -> HOME
@@ -53,9 +53,9 @@ GET/POST http://localhost:5005/stop
       - `d` -> DOWN
       - `u` -> UP
       - `t` -> TAB
-  - ##W: Pause for the duration specified in command text as milliseconds
-  - ##R: Send the command text as it is (`SendKeys.SendWait` is used) 
-  - ##N: Send a new line (no text expected)
+  - `##W:` Pause for the duration specified in command text as milliseconds
+  - `##R:` Send the command text as it is (`SendKeys.SendWait` is used) 
+  - `##N` Send a new line (no text expected)
 
 ### Examples
   - `##T: Console.WriteLine("Hello World")` will type "Console.WriteLine("Hello World")" in the active window
