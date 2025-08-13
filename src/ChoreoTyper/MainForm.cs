@@ -29,7 +29,7 @@ namespace ChoreoTyper
             }
             else
             {
-                LoadText(@"##T: Hello World");
+                LoadText("##T: Hello World\n##T: http://host:5005/prev\n##T: http://host:5005/next");
             }
 
             // Add double-click event to reload file
@@ -65,7 +65,6 @@ namespace ChoreoTyper
                 MessageBox.Show($"Failed to start HTTP server: {ex.Message}");
             }
         }
-
 
 
         private async Task HandleRequests()
