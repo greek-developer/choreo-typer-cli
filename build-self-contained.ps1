@@ -21,4 +21,4 @@ $publishArgs = @(
 
 dotnet @publishArgs
 
-Compress-Archive -Path "./release/win-x64/choreotyper.exe" -DestinationPath "./release/ChoreoTyper-win64.zip" -Force
+Compress-Archive -Path "./release/win-x64/choreotyper.exe" -DestinationPath "./release/ChoreoTyper-$($version).windows-amd64.zip" -Force
