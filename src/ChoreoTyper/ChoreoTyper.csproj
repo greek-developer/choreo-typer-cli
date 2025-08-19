@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>ChoreoTyper</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+<PropertyGroup>  
+  <Product>Choreo-Typer</Product>  
+  <Copyright>2025 GRDEV</Copyright>
+</PropertyGroup>
 
 </Project>
