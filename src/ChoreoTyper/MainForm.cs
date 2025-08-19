@@ -176,8 +176,11 @@ namespace ChoreoTyper
 
         private void InitializeComponent()
         {
-            this.Text = "Typer";
-            this.Size = new Size(600, 400);
+            this.Text = "Choreo Typer";
+            this.Size = new Size(600, 800);
+
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             listBoxEntries = new ListBox { Dock = DockStyle.Fill, Font = new Font(FontFamily.GenericMonospace, 22), HorizontalScrollbar = true };
 
             var panel = new Panel { Dock = DockStyle.Fill };
