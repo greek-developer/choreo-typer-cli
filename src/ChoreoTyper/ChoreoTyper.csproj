@@ -1,11 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>0.1.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>ChoreoTyper</RootNamespace>
     <Nullable>enable</Nullable>
+    <PackageOutputPath>../../nupkg</PackageOutputPath>
+    <PackAsTool>true</PackAsTool>
   </PropertyGroup>
 
 <PropertyGroup>  
@@ -13,4 +19,18 @@
   <Copyright>2025 GRDEV</Copyright>
 </PropertyGroup>
 
+ <PropertyGroup>    
+    <ToolCommandName>choreotyper</ToolCommandName>    
+    <PackageId>grdev.choreotyper</PackageId>    
+    <Authors>Thomas Sarmis (thomas.sarmis@gmail.com), GRDEV</Authors>
+    <Description>Task Management CLI</Description>    
+    <RepositoryUrl>https://github.com/greek-developer/choreotyper</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://greekdeveloper.com/projects//choreo-typer</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>        
+  </ItemGroup>
 </Project>
