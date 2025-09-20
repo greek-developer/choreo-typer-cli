@@ -241,16 +241,7 @@ namespace ChoreoTyper
                 }
             }
         }
-
-        private static void SendTextCharByChar(string text)
-        {
-            foreach (char c in text)
-            {
-                SendKeys.SendWait(c.ToString());
-                //System.Threading.Thread.Sleep(100);
-            }
-        }
-
+        
         private string ProcessSpecialCommand(string commandText)
         {
             commandText = commandText.Replace(" ", "");
@@ -260,10 +251,11 @@ namespace ChoreoTyper
                 { "n", "{ENTER}" },
                 { "h", "{HOME}" },
                 { "e", "{END}" },
+                { "l", "{LEFT}"},
+                { "r", "{RIGHT}"},
                 { "d", "{DOWN}" },
                 { "u", "{UP}" },
-                { "t", "{TAB}" },
-                { "l", ""}
+                { "t", "{TAB}" }                
             };
 
             foreach (var shortcode in shortcodes)
