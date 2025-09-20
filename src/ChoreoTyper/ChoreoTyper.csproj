@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.1.3</Version>
+    <Version>0.1.4</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -12,6 +12,7 @@
     <Nullable>enable</Nullable>
     <PackageOutputPath>../../nupkg</PackageOutputPath>
     <PackAsTool>true</PackAsTool>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
 <PropertyGroup>  
