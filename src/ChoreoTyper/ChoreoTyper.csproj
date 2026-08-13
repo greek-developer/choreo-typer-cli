@@ -6,7 +6,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>ChoreoTyper</RootNamespace>
     <Nullable>enable</Nullable>
-    <PackageOutputPath>../../nupkg</PackageOutputPath>
+    <PackageOutputPath>../../release</PackageOutputPath>
     <PackAsTool>true</PackAsTool>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
