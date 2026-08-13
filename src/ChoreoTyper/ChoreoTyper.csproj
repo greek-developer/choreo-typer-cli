@@ -17,11 +17,11 @@
 </PropertyGroup>
 
  <PropertyGroup>    
-    <ToolCommandName>choreotyper</ToolCommandName>    
-    <PackageId>grdev.choreotyper</PackageId>    
+    <ToolCommandName>choreo-typer</ToolCommandName>
+    <PackageId>grdev.choreo-typer-cli</PackageId>
     <Authors>Thomas Sarmis (thomas.sarmis@gmail.com), GRDEV</Authors>
-    <Description>Task Management CLI</Description>    
-    <RepositoryUrl>https://github.com/greek-developer/choreotyper</RepositoryUrl>
+    <Description>Keyboard automation tool for perfect keystrokes every time</Description>
+    <RepositoryUrl>https://github.com/greek-developer/choreo-typer-cli</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://greekdeveloper.com/projects//choreo-typer</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
